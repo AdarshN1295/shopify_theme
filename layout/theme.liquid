@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>{{ page.title }}</title>
+    {{ content_for_header }}
+    
+    {{ 'theme.css' | asset_url | stylesheet_tag }}
+      
+    </head>
+    <body class="ev-bodyContent">
+      <header>
+        {% render 'header' %}
+      </header>
+    <main id="ev-ver--content-evtype">
+     {{ content_for_layout }}
+    
+    <footer>
+        {% render 'footer' %}
+    </footer>
+      
+    </main>
+    <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+    </body>
+    </html>

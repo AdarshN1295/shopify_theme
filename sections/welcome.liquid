@@ -1,0 +1,38 @@
+<div class="off-0welcomemsg">
+    <p class="text-content_opara">{{ section.settings.welcomeContent }}</p>
+    <a class="welcome--redirection" href="{{ section.settings.btnURL }}">
+        <button class="welcome--button">{{ section.settings.btnTEXT }}</button>
+    </a>
+</div>
+
+{% schema %}
+{
+    "name": "Welcome MSG",
+    "tag": "section",
+    "class": "welcome--gratitude",
+    "settings": [
+        {
+            "type": "text",
+            "id": "welcomeContent",
+            "label": "Text Content",
+            "default": "We have created Amelia using the latest technology stack, modern design, and user experience techniques. The booking system allows you to provide an enterprise-level smooth booking experience for your customers, without investing in branding or making big changes to your work process. Give your business a professional and trustworthy feel."
+        },
+        {
+            "type": "url",
+            "id": "btnURL",
+            "label": "URL"
+        },
+        {
+            "type": "text",
+            "id": "btnTEXT",
+            "label": "Button Label",
+            "default": "Learn More"
+        }
+    ],
+    "presets": [
+        {
+            "name": "welcome"
+        }
+    ]
+}
+{% endschema %}

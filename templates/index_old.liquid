@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>{{ page.title }}</title>
+    {{ content_for_header }}
+    </head>
+    <body class="ev-bodyContent">
+    <main id="ev-ver--content-evtype">
+     {{ content_for_layout }}
+    
+    {% section 'welcome' %}
+    
+    </main>
+    <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+    </body>
+    </html>

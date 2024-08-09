@@ -1,0 +1,31 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+    "sections": {
+      "template-homepage": {
+        "type": "template-index",
+        "settings": {
+        }
+      },
+      "welcome_3Y79Bd": {
+        "type": "welcome",
+        "settings": {
+          "welcomeContent": "We have created Amelia using the latest technology stack, modern design, and user experience techniques. The booking system allows you to provide an enterprise-level smooth booking experience for your customers, without investing in branding or making big changes to your work process. Give your business a professional and trustworthy feel.",
+          "btnURL": "",
+          "btnTEXT": "Learn More"
+        }
+      }
+    },
+    "order": [
+      "template-homepage",
+      "welcome_3Y79Bd"
+    ]
+  }
+  
